@@ -1,1 +1,2 @@
-PAIR 360 Dataset
+Diffusion Guided Adaptive Augmentation for Generalization
+in Visual Reinforcement Learning
