@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>PAIR360: 360° Panormaic Image with High Resolution and LiDAR Scan Outdoor Dataset </title>
+  <title>Diffusion Guided Adaptive Augmentation for Generalization \\in Visual Reinforcement Learning </title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon/stablediffusison_photo_icon.ico">
   <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon/DALLE3_illust_icon.ico"> -->
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
@@ -171,27 +171,23 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">PAIR360: A Paired Dataset of High-Resolution 360° Panoramic Images
+            <h1 class="title is-1 publication-title">Diffusion Guided Adaptive Augmentation for Generalization \\in Visual Reinforcement Learning
               and LiDAR Scans</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <!-- <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Geuun Kim</a>,</span> -->
-                GeunU Kim, Daeho Kim, Jaeyun Jang, Hyoseok Hwang
-                <br> {kyakl7232, kdh2769, yoon2926, hyoseok}@khu.ac.uk
+                <!-- <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Jeong Woon Lee</a>,</span> -->
+                Jeong Woon Lee Hyoseok Hwang
+                <br> {everyman, hyoseok}@khu.ac.uk
                 <!-- <span class="author-block"> -->
-                  <!-- <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Daeho Kim</a>,</span> -->
+                  <!-- <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Hyoseok Hwang</a>,</span> -->
                   
-                  <!-- <span class="author-block"> -->
-                    <!-- <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Jaeyun Jang</a>,</span> -->
-                  <!-- <span class="author-block"> -->
-                    <!-- <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Hyoseok Hwang</a><sup>*</sup></span> -->
 
                   </div>
 
                   <div class="is-size-5 publication-authors">
                     <span class="author-block">
-                      <a href="http://airlab.khu.ac.kr/" target="_blank"> Kyung Hee University AIRLAB </a><br>RA-L 2024</span>
+                      <a href="http://airlab.khu.ac.kr/" target="_blank"> Kyung Hee University AIRLAB </a><br>ICCV 2025</span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -307,10 +303,14 @@
   <div class="container is-fullhd"> 
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">PAIR360 Dataset</h2>
+        <h2 class="title is-3">Abstract</h2>
         <ul>        
-          <li>This dataset provides 360 equirectangular image set with LiDAR point cloud from Insta360 pro2 - Velodyne VLP-32C system. </li>
-          <li> Moreover, We use pre-trained foundation model, Depth-Anything, to make depth map and semantic segmentation labels. </li>
+          <li>Reinforcement learning (RL) has proven its potential in complex decision-making tasks. Yet, many RL systems rely on manually crafted state representations, requiring effort in feature engineering. 
+Visual Reinforcement Learning (VRL) offers a way to address this challenge by enabling agents to learn directly from raw visual input. Nonetheless, VRL continues to face generalization issues, as models often overfit to specific domain features.
+To tackle this issue, we propose Diffusion Guided Adaptive Augmentation (DGA2), an augmentation method that utilizes Stable Diffusion to enhance domain diversity.
+We introduce an Adaptive Domain Shift strategy that dynamically adjusts the degree of domain shift according to the agent’s learning progress for effective augmentation with Stable Diffusion.
+Additionally, we employ saliency as the mask to preserve the semantics of data.
+Our experiments on the DMControl-GB, Adroit, and Procgen environments demonstrate that DGA2 improves generalization performance compared to existing data augmentation and generalization methods. </li>
         </ul>
 
         <div>
